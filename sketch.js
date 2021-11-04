@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   background(currentPalette[0]);
-  textFont(font);
+  textFont('Arial');
   textSize(70);
   textAlign(CENTER, CENTER);
   
