@@ -3,7 +3,6 @@ let palette1 = ['#3c1518', '#69140e', '#a44200', '#d58936', '#f2f3ae'];
 let palette2 = ['#313238', '#4e4232', '#a08357', '#f1c47b', '#e8ddcb'];
 let palette3 = ['#1c2321', '#5e6572', '#7d98a1', '#a9b4c2', '#eef1ef'];
 let array2 = ['Sol   ', '   ita   ', '      ire', 'Solita   ', '   itaire', 'Sol   ire'];
-let array3 = ['S', 'o', 'l', 'i', 't', 'a', 'i', 'r', 'e'];
 let currentPalette = palette1;
 let currentDesign = 1;
 let palette = 1;
@@ -153,6 +152,7 @@ function designTwo(){
 
 function designThree(){
   noStroke();
+  let array3 = ['S', 'o', 'l', 'i', 't', 'a', 'i', 'r', 'e'];
   fill(currentPalette[2]);
   text(array3[0], 95, 320);
   fill(currentPalette[3]);
