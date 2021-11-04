@@ -2,7 +2,8 @@ let font;
 let palette1 = ['#3c1518', '#69140e', '#a44200', '#d58936', '#f2f3ae'];
 let palette2 = ['#313238', '#4e4232', '#a08357', '#f1c47b', '#e8ddcb'];
 let palette3 = ['#1c2321', '#5e6572', '#7d98a1', '#a9b4c2', '#eef1ef'];
-let charArray = ['Sol   ', '   ita   ', '      ire', 'Solita   ', '   itaire', 'Sol   ire'];
+let array2 = ['Sol   ', '   ita   ', '      ire', 'Solita   ', '   itaire', 'Sol   ire'];
+let array3 = ['S', 'o', 'l', 'i', 't','a','i', 'r', 'e'];
 let currentPalette = palette1;
 let currentDesign = 1;
 let palette = 1;
@@ -123,7 +124,7 @@ function designTwo(){
     }
     fill(currentPalette[index]);
     let n = 320 + 15*sin(i * 15) + 15 * noise(-i/10 + millis()/1000);
-    text(charArray[i % 4], xOff, bound - n);
+    text(array2[i % 4], xOff, bound - n);
     xOff -= 30;
     bound += 50;
   }
@@ -137,7 +138,7 @@ function designTwo(){
     }
     fill(currentPalette[index])
     let n = 320 + 15*sin(i * 15) + 15 * noise(-i/10 + millis()/1000);
-    text(charArray[i % 5], xOff, n - bound);
+    text(array2[i % 5], xOff, n - bound);
     xOff += 30;
     bound -= 50;
   }
