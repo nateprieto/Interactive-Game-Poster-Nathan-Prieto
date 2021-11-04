@@ -152,8 +152,25 @@ function designTwo(){
 
 function designThree(){
   noStroke();
+  fill(currentPalette[2]);
+  text(array3[0], 95, 320);
   fill(currentPalette[3]);
-  text('Solitaire', 200, 320)
+  text(array3[1], 135, 320);
+  fill(currentPalette[1]);
+  text(array3[2], 163, 320);
+  fill(currentPalette[4]);
+  text(array3[3], 180, 320);
+  fill(currentPalette[2]);
+  text(array3[4], 200, 320);
+  fill(currentPalette[1]);
+  text(array3[5], 230, 320);
+  fill(currentPalette[4]);
+  text(array3[6], 257, 320);
+  fill(currentPalette[3]);
+  text(array3[7], 278, 320);
+  fill(currentPalette[2]);
+  text(array3[8], 308, 320);
+  
   fill(currentPalette[4]);
   textSize(20);
   text('By Microsoft', 280, 273);
